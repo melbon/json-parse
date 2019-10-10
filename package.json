@@ -1,0 +1,22 @@
+{
+  "name": "simple-json-parser",
+  "version": "1.0.0",
+  "description": "Parse JSON without SyntaxError",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melbon/simple-json-parser.git"
+  },
+  "author": "MarioVidov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melbon/simple-json-parser/issues"
+  },
+  "homepage": "https://github.com/melbon/simple-json-parser#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
