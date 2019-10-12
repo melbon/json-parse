@@ -1,4 +1,4 @@
-const jsonParse = require('.');
+import jsonParse from ".";
 
 test('test with object (valid json format)', () => {
     const data = '{"foo": "bar"}';
@@ -13,4 +13,7 @@ test('test with string', () => {
 });
 test('test with number', () => {
     expect(jsonParse(123)).toMatchObject({});
+});
+test('test with number (string)', () => {
+    expect(jsonParse('123')).toMatchObject({});
 });
