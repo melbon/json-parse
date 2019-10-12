@@ -1,6 +1,6 @@
 {
   "name": "simple-json-parser",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Parse JSON without SyntaxError",
   "main": "dist/index.js",
   "scripts": {
