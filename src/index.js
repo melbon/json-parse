@@ -1,4 +1,4 @@
-module.exports = data => {
+const jsonParse = data => {
     if (typeof data !== 'number') {
         try {
             return JSON.parse(data)
@@ -6,3 +6,5 @@ module.exports = data => {
     }
     return {}
 };
+
+export default jsonParse

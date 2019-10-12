@@ -1,4 +1,4 @@
-const jsonParse = require('.');
+import jsonParse from ".";
 
 test('test with object (valid json format)', () => {
     const data = '{"foo": "bar"}';
