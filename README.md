@@ -6,7 +6,7 @@ Parse JSON without SyntaxError
 $ npm install simple-json-parser
 ```
 
-##Usage
+## Usage
 ```js
 import jsonParse from "simple-json-parser";
 
@@ -23,6 +23,11 @@ const obj2 = jsonParse('foo');
 */
 
 const obj3 = jsonParse('123');
+/*
+    {}
+*/
+
+const obj4 = jsonParse(123);
 /*
     {}
 */
