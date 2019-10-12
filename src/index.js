@@ -1,10 +1,9 @@
 const jsonParse = data => {
-    if (typeof data !== 'number') {
-        try {
-            return JSON.parse(data)
-        } catch (e) {}
-    }
-    return {}
+    let obj = {};
+    try {
+        obj = JSON.parse(data)
+    } catch (e) {}
+    return typeof obj === 'number' ? {} : obj
 };
 
 export default jsonParse

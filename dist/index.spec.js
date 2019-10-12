@@ -20,3 +20,6 @@ test('test with string', function () {
 test('test with number', function () {
     expect((0, _2.default)(123)).toMatchObject({});
 });
+test('test with number (string)', function () {
+    expect((0, _2.default)('123')).toMatchObject({});
+});

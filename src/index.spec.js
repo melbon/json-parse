@@ -14,3 +14,6 @@ test('test with string', () => {
 test('test with number', () => {
     expect(jsonParse(123)).toMatchObject({});
 });
+test('test with number (string)', () => {
+    expect(jsonParse('123')).toMatchObject({});
+});
