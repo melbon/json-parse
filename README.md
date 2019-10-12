@@ -8,7 +8,7 @@ $ npm install simple-json-parser
 
 ##Usage
 ```js
-const jsonParse = required('simple-json-parser');
+import jsonParse from "simple-json-parser";
 
 const obj1 = jsonParse('{"foo":"bar"}');
 /* 
@@ -18,6 +18,11 @@ const obj1 = jsonParse('{"foo":"bar"}');
 */
 
 const obj2 = jsonParse('foo');
+/*
+    {}
+*/
+
+const obj3 = jsonParse('123');
 /*
     {}
 */

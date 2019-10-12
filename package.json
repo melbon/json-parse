@@ -2,7 +2,7 @@
   "name": "simple-json-parser",
   "version": "2.0.0",
   "description": "Parse JSON without SyntaxError",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm run build & jest dist --coverage",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist"
@@ -23,5 +23,9 @@
     "@babel/core": "^7.6.4",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1"
-  }
+  },
+  "keywords": [
+    "json",
+    "JSON.parse"
+  ]
 }
